@@ -1,0 +1,189 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #e8e4f3;
+
+}
+
+.mainDiv {
+   border: 1px solid white;
+   border-radius: 20px;
+   background: linear-gradient(145deg, #e6e6e6, #ffffff);
+   box-shadow: 20px 20px 60px #d9d9d9,
+      -20px -20px 60px #ffffff;
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 750px;
+   height: 100px;
+}
+
+/* .container1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 400px;
+   height: 100px;
+} */
+
+.CategoryBoxes {
+   width: 750px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: auto;
+
+}
+
+.CategoryBoxesChild {
+   width: 160px;
+   height: 160px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.CategoryBoxesChild img {
+   width: 50px;
+   height: 50px;
+}
+
+.CategoryBoxesChild h5 {
+   font-size: 12px;
+}
+
+/* Sub Category  */
+.SubCategoryBoxesChild {
+   width: 350px;
+   height: 70px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin: 5px;
+}
+
+.SubCategoryBoxesChild img {
+   width: 60px;
+   height: 60px;
+}
+
+.SubCategoryBoxesChild h5 {
+   font-size: 18px;
+}
+
+/* Ads image  */
+.AdsImage{
+   height: 200px;
+   background-image: url(https://placehold.co/750x200);
+
+}
+/* Icon Category */
+
+.IconCategory{
+   display: flex;
+   justify-content: space-around;
+   gap: 15px;
+   align-items: center;
+   height: 150px;
+   overflow-x: scroll;
+   
+
+}
+
+.iconImage{
+  
+   border-radius: 50%;
+   width: 120px;
+   height: 120px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   
+   
+   
+}
+.iconImage img{
+   width: 50px;
+   height: 50px;
+}
+.scrolDivMain{
+   display: flex;
+   justify-content: space-around;
+   gap: 20px;
+   overflow-x: scroll;
+   height: 150px;
+   
+   
+}
+
+.scrolDiv{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width:220px ;
+   height:120px;
+
+}
+
+
+
+@media (max-width: 450px) {
+   .container{
+      width: 100%;
+      margin: auto;
+   }
+   .CategoryBoxes{
+      width: 100%;
+      
+   }
+   .CategoryBoxes {
+      width: 100%; 
+      padding-left: 10px;
+  }
+  .CategoryBoxesChild{
+   width: 120px;
+   height: 120px;
+   
+   
+  }
+  .lastdiv{
+   display: none;
+
+  }
+  .SubCategoryBoxesChild{
+   width: 400px;
+  }
+   
+  .AdsImage{
+   width: 400px;
+   height: 100px;
+   background-image: url(https://placehold.co/400x100);
+   
+
+   }
+}
+
+
+
+@media (max-width:750px) {
+   .container{
+      width: 100%;
+   }
+   .CategoryBoxes{
+      width: 100%;
+   }
+}
+
+/* start demo */
+
